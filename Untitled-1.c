@@ -7,5 +7,7 @@ int main()
   for(int i=2;i<=n;i++)
   {x=(x+m)%i;}
   printf("%d\n",x+1);
-    return 0;
+  printf("nothing\n");//这一行就是练习git的，无意义
+    printf("again");
+  return 0;
 }//相当nb的代码，数学逆推，也可用数组，这个更简单
